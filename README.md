@@ -24,7 +24,7 @@ Write a function that returns the most frequent number in an array. If tied, ret
 
 ## Challenge 02:
 
-### Challenge Minimum Value :
+### Challenge_Minimum Value :
 
 **Description:**  
 Write a function called MinimumValue that accepts an array of integers. Without using built-in methods, the function should return the smallest value in the array.
