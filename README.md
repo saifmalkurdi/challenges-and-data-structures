@@ -1,6 +1,8 @@
 # Whiteboard Challenges
 
-## Challenge A: Array Reversal
+## Challenge 01:
+
+### Challenge (A) Array Reversal :
 
 **Description:**  
 Write a function named `ArrayReversal` that takes an array and returns a new array in reverse order without using built-in methods.
@@ -10,7 +12,7 @@ Write a function named `ArrayReversal` that takes an array and returns a new arr
 
 ---
 
-## Challenge B: Most Frequent Number
+### Challenge (B) Most Frequent Number :
 
 **Description:**  
 Write a function that returns the most frequent number in an array. If tied, return the first one.
@@ -18,3 +20,16 @@ Write a function that returns the most frequent number in an array. If tied, ret
 **Whiteboard Image:**  
 ![Most Frequent Number Whiteboard](./whiteboard-challenges/MostFrequentNumber.png)
 
+---
+
+## Challenge 02:
+
+### Challenge_Minimum Value :
+
+**Description:**  
+Write a function called MinimumValue that accepts an array of integers. Without using built-in methods, the function should return the smallest value in the array.
+
+### According to the best preactise recommendation, i devide my code into multi functions.
+
+**Whiteboard Image:**  
+![Minimum Value Whiteboard](./whiteboard-challenges/MinimumValue.png)
