@@ -33,3 +33,19 @@ Write a function called MinimumValue that accepts an array of integers. Without 
 
 **Whiteboard Image:**  
 ![Minimum Value Whiteboard](./whiteboard-challenges/MinimumValue.png)
+
+---
+
+## Challenge 03:
+
+### Challenge_Reverse Characters :
+
+**Description:**  
+Write a function called ReverseCharacters that takes a single string as input. Without using built-in methods, the function should return the string with all characters reversed .
+
+**Whiteboard Image:**
+![Reversed Characters Whiteboard](./whiteboard-challenges/ReversedCharacters.png)
+
+### The log value in the Terminal :
+
+![Code in Terminal](./whiteboard-challenges/Terminal.png)
