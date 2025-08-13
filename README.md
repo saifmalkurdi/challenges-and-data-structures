@@ -8,7 +8,7 @@
 Write a function named `ArrayReversal` that takes an array and returns a new array in reverse order without using built-in methods.
 
 **Whiteboard Image:**  
-![Array Reversal Whiteboard](./whiteboard-challenges/ArrayReversal.png)
+![Array Reversal Whiteboard](./whiteboard-challenges/images/ArrayReversal.png)
 
 ---
 
@@ -18,7 +18,7 @@ Write a function named `ArrayReversal` that takes an array and returns a new arr
 Write a function that returns the most frequent number in an array. If tied, return the first one.
 
 **Whiteboard Image:**  
-![Most Frequent Number Whiteboard](./whiteboard-challenges/MostFrequentNumber.png)
+![Most Frequent Number Whiteboard](./whiteboard-challenges/images/MostFrequentNumber.png)
 
 ---
 
@@ -32,7 +32,7 @@ Write a function called MinimumValue that accepts an array of integers. Without 
 ### According to the best preactise recommendation, i devide my code into multi functions.
 
 **Whiteboard Image:**  
-![Minimum Value Whiteboard](./whiteboard-challenges/MinimumValue.png)
+![Minimum Value Whiteboard](./whiteboard-challenges/images/MinimumValue.png)
 
 ---
 
@@ -44,8 +44,22 @@ Write a function called MinimumValue that accepts an array of integers. Without 
 Write a function called ReverseCharacters that takes a single string as input. Without using built-in methods, the function should return the string with all characters reversed .
 
 **Whiteboard Image:**
-![Reversed Characters Whiteboard](./whiteboard-challenges/ReversedCharacters.png)
+![Reversed Characters Whiteboard](./whiteboard-challenges/images/ReversedCharacters.png)
 
-### The log value in the Terminal :
+### The console output the Terminal :
 
-![Code in Terminal](./whiteboard-challenges/Terminal.png)
+## ![Code in Terminal](./whiteboard-challenges/images/Terminal.png)
+
+## Challenge 04:
+
+### Challenge_Remove-Middle-Value :
+
+**Description:**  
+Write a function called RemoveMiddleValue that takes an array as its parameter. Without utilizing any of the built-in methods available in the language, the function should remove tha value at the middle index of the array. The function shuold return the modified array.
+
+**Whiteboard Image:**
+![Remove-Middle-Value Whiteboard](./whiteboard-challenges/images/RemoveMiddleValue.png)
+
+### The console output in the Terminal :
+
+![Code in Terminal](./whiteboard-challenges/images/Terminal2.png)
