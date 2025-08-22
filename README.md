@@ -63,3 +63,9 @@ Write a function called RemoveMiddleValue that takes an array as its parameter. 
 ### The console output in the Terminal :
 
 ![Code in Terminal](./whiteboard-challenges/images/Terminal2.png)
+
+---
+
+## Additional Resources
+
+- [Go to LinkedList README](./Data%20Structures/LinkedList/README.md)
