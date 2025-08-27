@@ -2,6 +2,8 @@
 
 This mini‑project implements and tests an **in‑place reverse** of a singly linked list in JavaScript. It includes a working method, usage example, and Jest tests.
 
+[⬅ Back to Root README](../../../../README.md)
+
 ---
 
 ## 🧩 Problem Domain
@@ -81,7 +83,7 @@ Use three pointers and iterate once:
 ## 💻 Real Code (method on LinkedList)
 
 > Full implementation is available in this folder:  
-> [`nod.js`](../nod.js) | [`LinkedList.js`](../LinkedList.js) | [`reverse.js`](./reverse.js) | [`ReversedLinkedList.test.js`](../tests/ReversedLinkedList.test.js)
+> [`nod.js`](../nod.js) | [`LinkedList.js`](../LinkedList.js) | [`reverse.js`](./reverse.js) | [`ReversedLinkedList.test.js`](../tests/ReverseLinkedList.test.js)
 
 ---
 
