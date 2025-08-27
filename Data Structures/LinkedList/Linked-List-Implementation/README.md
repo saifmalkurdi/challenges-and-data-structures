@@ -2,20 +2,7 @@
 
 > A minimal singly linked list implementation in JavaScript with `add`, `remove`, `includes`, `insertAt`, and `printList`, plus Jest tests.
 
-[⬅ Back to Root README](../../README.md)
-
----
-
-## 📑 Table of Contents
-
-- [🧩 Problem Domain](#-problem-domain)
-- [🔢 Inputs & Outputs](#-inputs-and-expected-outputs)
-- [⚠️ Edge Cases](#️-edge-cases)
-- [👀 Visual](#-visual)
-- [⚙️ Algorithm](#️-algorithm-high-level)
-- [💻 Real Code](#-real-code)
-- [🧮 Big-O Complexity](#-big-o-time--space-complexity)
-- [▶️ How to Run](#️-how-to-run)
+[⬅ Back to Root README](../../../README.md)
 
 ---
 
@@ -36,11 +23,11 @@ Support these operations **without using array methods** to manage nodes:
 
 ### 🟦 Input
 
-<img src="./images/Inputs.png" alt="Inputs Example" width="700"/>
+<img src="./docs/Inputs.png" alt="Inputs Example" width="700"/>
 
 ### 🟩 Output
 
-<img src="./images/Outputs.png" alt="Outputs Example" width="700"/>
+<img src="./docs/Outputs.png" alt="Outputs Example" width="700"/>
 
 ---
 
@@ -48,11 +35,11 @@ Support these operations **without using array methods** to manage nodes:
 
 ### 🟦 Input
 
-<img src="./images/Invalid-inputs.png" alt="Invalid Inputs Example" width="700"/>
+<img src="./docs/Invalid-inputs.png" alt="Invalid Inputs Example" width="700"/>
 
 ### 🟥 Output
 
-<img src="./images/Invalid-outputs.png" alt="Invalid Outputs Example" width="700"/>
+<img src="./docs/Invalid-outputs.png" alt="Invalid Outputs Example" width="700"/>
 
 ---
 
@@ -117,7 +104,7 @@ Head -> [5] -> [10] -> [15] -> [20] -> [30] -> Null
 ## 💻 Real Code
 
 > Full implementation is available in this folder:  
-> [`nod.js`](./nod.js) | [`LinkedList.js`](./LinkedList.js) | [`app.js`](./app.js) | [`LinkedList.test.js`](./LinkedList.test.js)
+> [`nod.js`](./nod.js) | [`LinkedList.js`](./LinkedList.js) | [`app.js`](./app.js) | [`LinkedList.test.js`](./tests/LinkedList.test.js)
 
 ---
 
@@ -135,10 +122,10 @@ Head -> [5] -> [10] -> [15] -> [20] -> [30] -> Null
 
 ## ▶️ How to Run
 
-### 📂 Step 1 — Navigate to the LinkedList folder
+### 📂 Step 1 — Navigate to the Linked-List-Implementation folder
 
 ```bash
-cd "Data Structures/LinkedList"
+cd "Data Structures/LinkedList/Linked-List-Implementation"
 ```
 
 ▶️ Step 2 — Run the demo
@@ -148,7 +135,7 @@ node app.js
 ```
 
 🖥️ Example Output:
-![Code in Terminal](./images/console-output.png)
+![Code in Terminal](./docs/console-output.png)
 
 🧪 Step 3 — Run the tests (requires Jest)
 
@@ -157,4 +144,4 @@ npm test
 ```
 
 ✅ Test Results:
-![Code in Terminal](./images/Tested-output.png)
+![Code in Terminal](./docs/Tested-output.png)

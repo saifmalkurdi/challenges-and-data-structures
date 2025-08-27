@@ -1,6 +1,6 @@
-const LinkedList = require("./LinkedList");
+const LinkedList = require("../LinkedList");
 
-// 1. add
+// 1. test add
 test("add() appends nodes to the end", () => {
   const list = new LinkedList();
   list.add(5);
@@ -16,7 +16,7 @@ test("add() appends nodes to the end", () => {
   expect(list.head.next.next.data).toBe(20);
 });
 
-// 2. remove
+// 2. test remove
 test("remove() deletes the first node with the given value", () => {
   const list = new LinkedList();
   list.add(5);
@@ -32,7 +32,7 @@ test("remove() deletes the first node with the given value", () => {
   expect(list.head.next.data).toBe(20);
 });
 
-// 3. including.
+// 3. test includes.
 test("includes() correctly checks for existing/non-existing values", () => {
   const list = new LinkedList();
   expect(list.includes(1)).toBe(false);
@@ -45,7 +45,7 @@ test("includes() correctly checks for existing/non-existing values", () => {
   expect(list.includes(99)).toBe(false);
 });
 
-// .4 insertAt
+// .4 test insertAt
 test("insertAt() inserts a node at the specified index", () => {
   const list = new LinkedList();
   list.add(5);

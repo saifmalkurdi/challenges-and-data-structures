@@ -6,6 +6,7 @@ class LinkedList {
     this.length = 0;
   }
 
+  // 1. add
   add(data) {
     const node = new Node(data);
     if (!this.head) {
@@ -20,6 +21,7 @@ class LinkedList {
     return this;
   }
 
+  // 2. remove
   remove(data) {
     if (!this.head) {
       console.log("Cannot remove from empty list.");
@@ -47,6 +49,7 @@ class LinkedList {
     return false;
   }
 
+  // 3. includes
   includes(data) {
     let curr = this.head;
     while (curr) {
@@ -56,6 +59,7 @@ class LinkedList {
     return false;
   }
 
+  // 4. insert
   insertAt(data, index) {
     if (index < 0 || index > this.length) {
       console.log(`Invalid index: ${index}.`);
@@ -76,6 +80,30 @@ class LinkedList {
     return this;
   }
 
+  // 5. reverse
+  reverse() {
+    // Edge cases:
+    // 1) Empty list (head is null)
+    // 2) Single-node list (head.next is null)
+    if (!this.head || !this.head.next) {
+      return this; // no change; keep chaining
+    }
+
+    let prev = null; // {20 → {10 → null}}
+    let curr = this.head; // {30 → null}
+
+    while (curr) {
+      const next = curr.next; // null
+      curr.next = prev; // {20 → {10 → null}}
+      prev = curr; // {30 → {20 → {10 → null}}}
+      curr = next; // null
+    }
+
+    this.head = prev; // {30 → {20 → {10 → null}}}
+    return this;
+  }
+
+  // 6. print
   printList() {
     if (!this.head) {
       console.log("The linked list is empty.");
