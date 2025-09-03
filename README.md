@@ -71,3 +71,5 @@ Write a function called RemoveMiddleValue that takes an array as its parameter. 
 - [Go to LinkedList README](./Data%20Structures/LinkedList/Linked-List-Implementation/README.md)
 
 - [Go to Reversed LinkedList README](./Data%20Structures/LinkedList/Linked-List-Implementation/Reverse/README.md)
+
+- [Go to MergeSorted LinkedList README](./Data%20Structures/LinkedList/Linked-List-Implementation/MergeSorted/README.md)
