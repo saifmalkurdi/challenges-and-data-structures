@@ -103,20 +103,73 @@ class LinkedList {
     return this;
   }
 
-  // 6. print
+  // 6. mergeSorted
+  static mergeSortedLists(list1, list2) {
+    // Validate inputs
+    if (!(list1 instanceof LinkedList) || !(list2 instanceof LinkedList)) {
+      throw new Error("mergeSortedLists expects two LinkedList instances");
+    }
+
+    const merged = new LinkedList();
+
+    // dummy node to handle edge cases
+    const dummy = new Node(null);
+    let tail = dummy;
+
+    let curr1 = list1.head;
+    let curr2 = list2.head;
+
+    // Traverse both lists
+    while (curr1 && curr2) {
+      if (curr1.data <= curr2.data) {
+        tail.next = new Node(curr1.data);
+        curr1 = curr1.next;
+      } else {
+        tail.next = new Node(curr2.data);
+        curr2 = curr2.next;
+      }
+      tail = tail.next;
+      merged.length++;
+    }
+
+    // Append any remaining nodes from list1
+    while (curr1) {
+      tail.next = new Node(curr1.data);
+      tail = tail.next;
+      curr1 = curr1.next;
+      merged.length++;
+    }
+
+    // Append any remaining nodes from list2
+    while (curr2) {
+      tail.next = new Node(curr2.data);
+      tail = tail.next;
+      curr2 = curr2.next;
+      merged.length++;
+    }
+
+    merged.head = dummy.next; // skip dummy
+    return merged;
+  }
+
+  // 7. print
   printList() {
     if (!this.head) {
-      console.log("The linked list is empty.");
-      return;
+      const emptyMsg = "Head -> null";
+      console.log(emptyMsg);
+      return emptyMsg;
     }
+
     let curr = this.head;
     let output = "Head";
     while (curr) {
       output += ` -> ${curr.data}`;
       curr = curr.next;
     }
+
     output += " -> null";
     console.log(output);
+    return output;
   }
 }
 
