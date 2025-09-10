@@ -86,20 +86,20 @@ class LinkedList {
     // 1) Empty list (head is null)
     // 2) Single-node list (head.next is null)
     if (!this.head || !this.head.next) {
-      return this; // no change; keep chaining
+      return this;
     }
 
-    let prev = null; // {20 → {10 → null}}
-    let curr = this.head; // {30 → null}
+    let prev = null;
+    let curr = this.head;
 
     while (curr) {
-      const next = curr.next; // null
-      curr.next = prev; // {20 → {10 → null}}
-      prev = curr; // {30 → {20 → {10 → null}}}
-      curr = next; // null
+      const next = curr.next;
+      curr.next = prev;
+      prev = curr;
+      curr = next;
     }
 
-    this.head = prev; // {30 → {20 → {10 → null}}}
+    this.head = prev;
     return this;
   }
 
@@ -152,7 +152,51 @@ class LinkedList {
     return merged;
   }
 
-  // 7. print
+  // 7. rotate-K
+  rotateLeft(k) {
+    if (!this.head || !this.head.next || k === 0) return this;
+
+    // Normalize k in case it's larger than length
+    k = k % this.length;
+
+    // If k is negative, rotate right by abs(k)
+    if (k < 0) {
+      k = this.length + k;
+    }
+
+    if (k === 0) return this;
+
+    // Traverse to the kth node
+    let curr = this.head;
+    let count = 1;
+    while (count < k && curr) {
+      curr = curr.next;
+      count++;
+    }
+
+    if (!curr) return this;
+
+    const kthNode = curr;
+
+    // Traverse to the end of the list
+    let tail = curr;
+    while (tail.next) {
+      tail = tail.next;
+    }
+
+    // Make it circular
+    tail.next = this.head;
+
+    // New head is (k+1)th node
+    this.head = kthNode.next;
+
+    // Break the link
+    kthNode.next = null;
+
+    return this;
+  }
+
+  // 8. print
   printList() {
     if (!this.head) {
       const emptyMsg = "Head -> null";
