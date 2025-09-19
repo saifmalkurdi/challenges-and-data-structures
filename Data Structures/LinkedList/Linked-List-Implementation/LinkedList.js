@@ -167,7 +167,7 @@ class LinkedList {
     if (k === 0) return this;
 
     // Traverse to the kth node
-    let curr = this.head;
+    let curr = this.head; //2
     let count = 1;
     while (count < k && curr) {
       curr = curr.next;
