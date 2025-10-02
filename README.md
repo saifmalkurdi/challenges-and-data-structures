@@ -79,3 +79,5 @@ Write a function called RemoveMiddleValue that takes an array as its parameter. 
 - [Go to Stack & Queue data strucutre README](./Data%20Structures/Stack-Queue/Stack-Queue-Implementation/README.md)
 
 - [Go to Min Stack data strucutre README](./Data%20Structures/Stack-Queue/MinStack/README.md)
+
+- [Go to Delete Middle Element Stack data strucutre README](./Data%20Structures/Stack-Queue/DeleteMiddleElement/README.md)
