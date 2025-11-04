@@ -85,3 +85,5 @@ Write a function called RemoveMiddleValue that takes an array as its parameter. 
 - [Go to Tree Implementation data strucutre README](./Data%20Structures/Trees/TreeImplementation/README.md)
 
 - [Go to Tree Find SecondMaxValue data strucutre README](./Data%20Structures/Trees/TreeImplementation/secondMaxValue/README.md)
+
+- [Go to Tree LeafSum data strucutre README](./Data%20Structures/Trees/TreeImplementation/LeafSum/README.md)
